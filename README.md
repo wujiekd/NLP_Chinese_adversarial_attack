@@ -6,26 +6,26 @@ Official model download link:http://aliyuntianchiresult.cn-hangzhou.oss.aliyun-i
 
 ### Document describing
 
-README.md         
-## This explanatory document
+#### README.md         
+This explanatory document
 
-vocab.txt
-## About 7,000 Chinese characters are commonly used
+#### vocab.txt
+7,000 Chinese characters are commonly used
 
-sort.py           
-## The Chinese characters of vocab.txt were sorted by using the officially provided model
+#### sort.py           
+The Chinese characters of vocab.txt were sorted by using the officially provided model
 
-sort.txt          
-## The generated sorted Chinese character table selects the alternate Chinese characters in choose.py
+#### sort.txt          
+The generated sorted Chinese character table selects the alternate Chinese characters in choose.py
 
-choose.py
-## Filter for substituted homophones
+#### choose.py
+Filter for substituted homophones
 
-raw.txt
-## The substituted word is used in the main function
+#### raw.txt
+The substituted word is used in the main function
 
-change.txt
-## The substitution is used in the main function
+#### change.txt
+The substitution is used in the main function
 
-main.py
-## Main function that generates the adversarial text
+#### main.py
+Main function that generates the adversarial text
