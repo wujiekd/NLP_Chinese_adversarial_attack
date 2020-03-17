@@ -1,14 +1,16 @@
-## F-LAB-sparrow（线上第五名）整体方案-镜像源码
+## F-LAB-sparrow(the fourth finalist of the competition) overall scheme - mirror source code
 
-### 文件说明
+The contest's website:https://tianchi.aliyun.com/competition/entrance/231762/introduction
+
+Official model download link:http://aliyuntianchiresult.cn-hangzhou.oss.aliyun-inc.com/file/race/documents/231762/securityAI3_materials.zip?Expires=1584531462&OSSAccessKeyId=LTAILBoOl5drlflK&Signature=mKjYVanPXOdn3KkMgRohrY30t3M%3D&response-content-disposition=attachment%3B%20
+
+### Document describing
 ./
-├── README.md                           | 这篇说明文档
-├── vocab.txt                        		 | 常用中文汉字大约7000个
-├── sort.py                                	 | 对vocab.txt的汉字使用官方提供模型进行排序
-├── sort.txt                              | 生成的排序汉字表，将在choose.py中挑选替换的汉字
-├── choose.py                                | 筛选替换的同音字
-├──  raw.txt                                     | 被替换的字，在主函数中用到
-├── change.txt                                | 替换的字，在主函数中用到
-└── main.py                                    |主函数，生成对抗文本
-
-
+├── README.md         | This explanatory document
+├── vocab.txt         | About 7,000 Chinese characters are commonly used
+├── sort.py           | The Chinese characters of vocab.txt were sorted by using the officially provided model
+├── sort.txt          | The generated sorted Chinese character table selects the alternate Chinese characters in choose.py
+├── choose.py         | Filter for substituted homophones
+├──  raw.txt          | The substituted word is used in the main function
+├── change.txt        | The substitution is used in the main function
+└── main.py           | Main function that generates the adversarial text
